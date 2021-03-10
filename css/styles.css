@@ -1,0 +1,45 @@
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:1030;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+}
+.navbar-brand {
+    width:75px;
+}
+.navbar-brand img {
+    height:75px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+}
+a {
+    color: #f58f71;
+}
+ul {
+    list-style-type: none;
+}
+.jumbotron {
+    background-color: #f58f71;
+    padding: 0px;
+    margin-top: 100px;
+}
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+.btn {
+    background-color: #f58f71;
+    margin: 5px;
+}
+.container {
+    max-width: 100%;
+}
